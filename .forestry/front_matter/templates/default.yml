@@ -20,5 +20,3 @@ fields:
   default: true
 - type: textarea
   default: Bodytext
-pages:
-- content/home.md

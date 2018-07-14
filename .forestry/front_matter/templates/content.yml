@@ -12,3 +12,5 @@ fields:
   name: content
   label: Content
   description: Set a content
+pages:
+- content/home.md
