@@ -1,0 +1,14 @@
+---
+label: Content
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  default: Titel
+  label: Titel
+  name: titel
+  description: Set a title
+- type: textarea
+  name: content
+  label: Content
+  description: Set a content
