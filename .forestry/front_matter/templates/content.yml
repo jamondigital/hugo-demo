@@ -8,9 +8,19 @@ fields:
   label: Titel
   name: titel
   description: Set a title
-- type: textarea
-  name: content
-  label: Content
-  description: Set a content
+- type: field_group_list
+  name: ''
+  label: ''
+  fields:
+  - type: text
+    label: Title
+    name: title
+    description: Set a title
+  - type: datetime
+    label: Date
+    name: date
+    description: Set a date
+    config:
+      date_format: dd.mm.YYYY
 pages:
 - content/home.md
