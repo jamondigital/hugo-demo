@@ -18,5 +18,7 @@ fields:
   type: boolean
   hidden: false
   default: true
+- type: textarea
+  default: Bodytext
 pages:
 - content/home.md
